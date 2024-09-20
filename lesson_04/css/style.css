@@ -1,0 +1,119 @@
+
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
+@import url(reset.css);
+/* -------------------------------------------------------- */
+h1 {
+	font-family: "Fascinate Inline",sans-serif;
+	font-size: 50px;
+}
+img{
+	width: 600px;
+}
+
+*[id]{
+	text-align: center ;
+}
+*[id]::first-letter{
+text-transform: uppercase;
+color: #241e85;
+}
+div p{
+	font-family: "Work Sans", serif;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	color: #474464;
+}
+.sidebar-section{
+	text-align: center;
+}
+.sidebar{
+font-family: "Roboto", sans-serif;
+font-size: 22px;
+}
+.sidebar-item:nth-child(even) {
+	color: #128a8c;
+}
+.sidebar-item:nth-child(odd){
+color: #214096;
+}
+.title{
+	font-family: "Work Sans",serif;
+	font-size: 40px;
+	font-weight:700;
+	line-height: 1.6;
+}
+.sub-title{
+	font-family: "DM Sans", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	color: #283838;
+	text-shadow:1px 1px 2px #091133 ;
+}
+
+/* -------------------------------------------------------- */
+footer{
+	font-family: "Work Sans", sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+.button{
+	font-size: 50px;
+	color:#6f1c75;
+	text-shadow: 2px 2px 3px #6f1c75;
+	
+}
+
+/* -------------------------------------------------------- */
+.portfolio-section{
+	font-family: "Work Sans", sans-serif;
+	text-align: center;
+}
+.portfolio-section>h4{
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #132238;
+}
+.portfolio-section>p{
+	font-size: 18px;
+	line-height: 1.2;
+	color: #556070;
+}
+/* ------------------------------------------------------- */
+.about-us-section{
+font-family: "DM Sans", sans-serif;
+text-align:left;
+}
+.about-us-section>h4{
+	font-size: 88px;
+	font-weight: 700;
+	line-height: 2;
+	color: #1E1B39;
+}
+.about-us-section>p{
+	font-size: 24px;
+	line-height: 1.4;
+	color: #474464;
+}
+/* ------------------------------------------------------ */
+.product-section{
+	font-family: "Roboto", sans-serif;
+	text-align: end;
+}
+.product-section>h4{
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	color: #091133;
+}
+.product-section>p{
+	font-size: 18px;
+	line-height: 30px;
+	color: #505F98;
+}
