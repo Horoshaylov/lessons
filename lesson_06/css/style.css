@@ -48,7 +48,7 @@ footer{
 	border-radius: 10px;
 }
 .dark_wrap .container .button>span{
-	background: url(/img/Icon.png) left / 24px no-repeat;
+	background: url(/img/icon.png) left / 24px no-repeat;
 	display: inline-block;
 	padding-inline-start: 24px;
 	
