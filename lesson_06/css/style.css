@@ -1,0 +1,116 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+header,
+footer{
+	font-family: "Manrope", sans-serif;
+	background-color: aquamarine;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+.dark_wrap{
+	font-family: "Manrope", sans-serif;
+	color: #fff;	
+	text-align: center;
+	background-color: #141414;
+}
+.dark_wrap .background{
+	block-size: 860px;
+	background:	
+	url(/img/background_1.png) center / 470px  no-repeat,
+	linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0.4515056022408963) 48%, rgba(20, 20, 20, 1) 100%),
+	url(/img/background_2.png) center / cover no-repeat fixed;
+	margin-inline: auto;
+	text-align: center;
+}
+.dark_wrap .container{
+	max-inline-size: 1596px;
+	padding-inline: 15px;
+	padding-block-end: 60px;
+	margin-inline: auto;
+}
+.dark_wrap .container>h2{
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+.dark_wrap .container>p{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #999;
+	margin-block-end: 68px;
+}
+.dark_wrap .container .button{
+	padding: 18px;
+	background-color: #E50000;
+	border-radius: 10px;
+}
+.dark_wrap .container .button>span{
+	background: url(/img/Icon.png) left / 24px no-repeat;
+	display: inline-block;
+	padding-inline-start: 24px;
+	
+}
+/* ----------------------------------------------------------------------------- */
+
+.portfolio-wrap{
+	font-family: "Epilouge", sans-serif;
+	color: #391400;
+	background-color: #FDF0E9;
+	padding-block: 50px;
+}
+.portfolio-wrap .container{
+	max-inline-size: 1596px;
+	padding-inline: 15px;
+	text-align: center;
+}
+.portfolio-wrap .container .list-wrap{
+	display: inline-block;
+	vertical-align: middle;
+	max-inline-size: 470px;
+	text-align: start;
+	margin-inline-end: 170px;
+}
+.portfolio-wrap .container .image-wrap{
+	display: inline-block;
+	vertical-align: middle;
+}
+.portfolio-wrap .container .image-wrap>img{
+	max-inline-size: 470px;
+	inline-size: 100%;
+}
+.portfolio-wrap .container .list-wrap .features{
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #EF6D58;
+}
+.portfolio-wrap .container .sub-title{
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 1.4;
+	letter-spacing: -1px;
+	color: #391400;
+	margin-block-end: 26px;
+}
+.portfolio-wrap .container .list-wrap>p {
+	font-size: 20px;
+	line-height: 1.2;
+	color: #391400;
+	margin-block-end: 26px;
+}
+.portfolio-wrap .container .list-wrap .list{
+	font-size: 16px;
+	line-height: 1.2;
+	color: rgba(57, 20, 0, 0.64);
+}
+.portfolio-wrap .container .list-wrap .list .list-item{
+	background: url(/img/check.png) left / 32px no-repeat;
+	margin-block-end: 16px;
+	padding:8px 8px 8px 40px;
+	min-block-size: 32px;
+}
+
