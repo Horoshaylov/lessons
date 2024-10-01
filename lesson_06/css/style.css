@@ -19,9 +19,9 @@ footer{
 .dark_wrap .background{
 	block-size: 860px;
 	background:	
-	url(/img/background_1.png) center / 470px  no-repeat,
+	url(../img/background_1.png) center / 470px  no-repeat,
 	linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0.4515056022408963) 48%, rgba(20, 20, 20, 1) 100%),
-	url(/img/background_2.png) center / cover no-repeat fixed;
+	url(../img/background_2.png) center / cover no-repeat fixed;
 	margin-inline: auto;
 	text-align: center;
 }
@@ -48,7 +48,7 @@ footer{
 	border-radius: 10px;
 }
 .dark_wrap .container .button>span{
-	background: url(/img/icon.png) left / 24px no-repeat;
+	background: url(../img/icon.png) left / 24px no-repeat;
 	display: inline-block;
 	padding-inline-start: 24px;
 	
@@ -108,7 +108,7 @@ footer{
 	color: rgba(57, 20, 0, 0.64);
 }
 .portfolio-wrap .container .list-wrap .list .list-item{
-	background: url(/img/check.png) left / 32px no-repeat;
+	background: url(../img/check.png) left / 32px no-repeat;
 	margin-block-end: 16px;
 	padding:8px 8px 8px 40px;
 	min-block-size: 32px;
