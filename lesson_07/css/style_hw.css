@@ -2,6 +2,13 @@
 @import url(fonts.css);
 @import url(reset.css);
 
+header,
+footer {
+	text-align: center;
+	background-color: #3224c7;
+	text-transform: uppercase;
+	font-size: 100px;
+}
 .timeline_wrap{
 	font-family: "DM Sans", sans-serif;
 	color: #1E1B39;
