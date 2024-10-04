@@ -17,7 +17,7 @@ footer{
 	background-color: #141414;
 }
 .dark_wrap .background{
-	block-size: 860px;
+	min-block-size: 860px;
 	background:	
 	url(../img/background_1.png) center / 470px  no-repeat,
 	linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0.4515056022408963) 48%, rgba(20, 20, 20, 1) 100%),
@@ -26,7 +26,7 @@ footer{
 	text-align: center;
 }
 .dark_wrap .container{
-	max-inline-size: 1596px;
+	max-inline-size: 1096px;
 	padding-inline: 15px;
 	padding-block-end: 60px;
 	margin-inline: auto;
@@ -35,6 +35,7 @@ footer{
 	font-size: 58px;
 	font-weight: 700;
 	line-height: 1.5;
+	text-transform: capitalize;
 }
 .dark_wrap .container>p{
 	font-size: 18px;
@@ -51,6 +52,7 @@ footer{
 	background: url(../img/icon.png) left / 24px no-repeat;
 	display: inline-block;
 	padding-inline-start: 24px;
+	text-transform: capitalize;
 	
 }
 /* ----------------------------------------------------------------------------- */
@@ -62,23 +64,25 @@ footer{
 	padding-block: 50px;
 }
 .portfolio-wrap .container{
-	max-inline-size: 1596px;
+	max-inline-size: 1096px;
 	padding-inline: 15px;
 	text-align: center;
+	margin-inline: auto;
+	font-size: 0;
 }
 .portfolio-wrap .container .list-wrap{
 	display: inline-block;
 	vertical-align: middle;
 	max-inline-size: 470px;
 	text-align: start;
-	margin-inline-end: 170px;
+	margin-inline-end: 60px;
 }
 .portfolio-wrap .container .image-wrap{
 	display: inline-block;
 	vertical-align: middle;
 }
 .portfolio-wrap .container .image-wrap>img{
-	max-inline-size: 470px;
+	max-inline-size: 529px;
 	inline-size: 100%;
 }
 .portfolio-wrap .container .list-wrap .features{
@@ -95,6 +99,7 @@ footer{
 	letter-spacing: -1px;
 	color: #391400;
 	margin-block-end: 26px;
+	text-transform: capitalize;
 }
 .portfolio-wrap .container .list-wrap>p {
 	font-size: 20px;
