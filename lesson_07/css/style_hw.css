@@ -182,8 +182,9 @@ footer {
 	;
 }
 .partfolio_wrap .limiting_cointainer{
-	max-inline-size: 970px;
+	max-inline-size: 1000px;
 	margin-inline: auto;
+	padding-inline: 15px;
 }
 .partfolio_wrap .limiting_cointainer>img{
 	max-inline-size: 970px;
