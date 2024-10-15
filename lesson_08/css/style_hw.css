@@ -1,0 +1,61 @@
+
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+	background:  url(../img/background-image.avif) center / cover no-repeat fixed ;
+	text-align: center;
+}
+header,
+footer {
+	font-size: 100px;
+	color: #c2600a;
+}
+.main-container {
+	margin-inline: auto;
+	max-inline-size: 1300px;
+	background: rgb(94, 94, 94);
+	padding: 30px;
+	border: 2px black solid;
+	border-radius: 5px;
+}
+.main-container >*:not(:last-child) {
+margin-block-end: 50px;
+}
+.header-image {
+	margin-inline: auto;
+	max-inline-size: 1170px;
+}
+.header-image .image-header {
+	max-inline-size: 1170px;
+	margin-block-end: 30px;
+}
+/* ------------------------------------------- */
+.block-image {
+	margin-inline: auto;
+	max-inline-size: 1170px;
+}
+.block-image .image-block {
+	max-inline-size: 570px;
+	margin-block-end: 30px;
+}
+/* ------------------------------------------- */
+.company-icon{
+	margin-block-end: 30px;
+}
+.company-icon>*:not(:last-child){
+	margin-inline-end: 30px;
+}
+.company-icon .company-image {
+	max-inline-size: 108px;
+}
+/* -------------------------------------------- */
+.content-icon {
+	margin-block-end: 20px;
+}
+.content-icon>*:not(:last-child) {
+	margin-inline-end: 30px;
+}
+.content-icon .content-image {
+	max-inline-size: 48px;
+}
